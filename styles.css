@@ -33,6 +33,6 @@ body {
     background-color: white; /* Valkoinen sisältöalue */
     width: 80%; /* Voit säätää leveyttä */
     max-width: 1000px; /* Maksimileveys */
-    padding: 20px;
+    padding: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Hieman varjoa */
 }
