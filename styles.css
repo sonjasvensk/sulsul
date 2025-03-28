@@ -1,6 +1,4 @@
-body {
-    background-color: #2B8E8E;
-}
+
 /* teal green #2B8E8E lime green #73B03A neon green #5CD85A Roayl Blue #278ED5 */
 /*bodyyn background color*/
 /*keski osan tausta valkoseks*/
@@ -14,4 +12,19 @@ nav {
     background-color:#73B03A;
     padding: 20px;
     text-align: center;
+}
+body {
+    background-color: #2B8E8E; /* Sininen taustaväri */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: white; /* Valkoinen sisältöalue */
+    width: 80%; /* Voit säätää leveyttä */
+    max-width: 1000px; /* Maksimileveys */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Hieman varjoa */
 }
