@@ -1,3 +1,13 @@
 * {
     box-sizing: border-box;
 }
+/* teal green #2B8E8E lime green #73B03A neon green #5CD85A Roayl Blue #278ED5 */
+
+#banneri {
+
+}
+nav {
+    background-color:#73B03A;
+    padding: 70%;
+    text-align: center;
+}
