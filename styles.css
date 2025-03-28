@@ -8,13 +8,12 @@
 /* boksit tekstiin*/
 
 nav {
-    background-color: #73B03A;
+    background-color:#73B03A;
     padding: 10px;
     text-align: center;
 }
-
-nav a {
-    color: black;
+nav a{
+    color:black;
     margin: 10px;
     text-decoration: none;
     /*poistaa linkin alle viivauksen*/
@@ -24,15 +23,13 @@ nav a {
 
 .sivulla {
     background-color: #5CD85A;
-}
-
-nav a:hover {
-    background-color: #5CD85A;
-}
-
+  }
+  nav a:hover {
+      background-color: #5CD85A;
+  }
+  
 body {
-    background-color: #2B8E8E;
-    /* Sininen taustaväri */
+    background-color: #2B8E8E; /* Sininen taustaväri */
     margin: 0;
     padding: 0;
     display: flex;
@@ -48,14 +45,9 @@ body {
 }
 
 .container {
-    background-color: white;
-    /* Valkoinen sisältöalue */
-    width: 80%;
-    /* Voit säätää leveyttä */
-    max-width: 1000px;
-    /* Maksimileveys */
+    background-color: white; /* Valkoinen sisältöalue */
+    width: 80%; /* Voit säätää leveyttä */
+    max-width: 1000px; /* Maksimileveys */
     padding: 30px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    /* Hieman varjoa */
-
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Hieman varjoa */
 }
