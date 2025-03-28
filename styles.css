@@ -10,8 +10,16 @@
 
 nav {
     background-color:#73B03A;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
+}
+nav a{
+    color:black;
+    margin: 10px;
+    text-decoration: none;
+    /*poistaa linkin alle viivauksen*/
+    display: inline-block;
+    width: 8em;
 }
 body {
     background-color: #2B8E8E; /* Sininen taustaväri */
