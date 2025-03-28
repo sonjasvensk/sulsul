@@ -6,7 +6,7 @@
 /* navin viimeistely*/
 /*kaikki center align*/
 /* boksit tekstiin*/
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 nav {
     background-color:#73B03A;
     padding: 10px;
@@ -50,4 +50,10 @@ body {
     max-width: 1000px; /* Maksimileveys */
     padding: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Hieman varjoa */
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
 }
