@@ -1,59 +1,127 @@
-/* teal green #2B8E8E lime green #73B03A neon green #5CD85A Roayl Blue #278ED5 */
-/*bodyyn background color*/
-/*keski osan tausta valkoseks*/
-/* Kuva sivuun webis, mobiilis alas */
-/* bodyyn fontti perhe */
-/* navin viimeistely*/
-/*kaikki center align*/
-/* boksit tekstiin*/
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-nav {
-    background-color:#73B03A;
-    padding: 10px;
-    text-align: center;
-}
-nav a{
-    color:black;
-    margin: 10px;
-    text-decoration: none;
-    /*poistaa linkin alle viivauksen*/
-    display: inline-block;
-    width: 8em;
-}
+/* Väriteema:
+   - Teal green: #2B8E8E
+   - Lime green: #73B03A
+   - Neon green: #5CD85A
+   - Royal Blue: #278ED5
+*/
 
-.sivulla {
-    background-color: #5CD85A;
-  }
-  nav a:hover {
-      background-color: #5CD85A;
-  }
-  
+/* Google-fontti */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* --- Yleiset asetukset --- */
 body {
-    background-color: #2B8E8E; /* Sininen taustaväri */
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
+  background-color: #2B8E8E; /* Taustaväri */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  font-family: "Noto Sans", sans-serif;
 }
 
+/* --- Navigaatio --- */
+nav {
+  background-color: #73B03A;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: black;
+  margin: 10px;
+  text-decoration: none;
+  display: inline-block;
+  width: 8em;
+}
+
+nav a:hover {
+  background-color: #5CD85A;
+}
+
+/* Banneri keskelle */
 #banneri {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    /*justify-content: center;*/
-    width: 60%
+  display: block;
+  margin: 20px auto;
+  width: 60%;
 }
 
+/* Otsikot */
+h1,
+h3 {
+  color: #278ED5;
+  text-align: center;
+}
+
+/* Sisältölaatikko */
 .container {
-    background-color: white; /* Valkoinen sisältöalue */
-    width: 80%; /* Voit säätää leveyttä */
-    max-width: 1000px; /* Maksimileveys */
-    padding: 30px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Hieman varjoa */
-    font-family: "Noto Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
+  background-color: white; 
+  width: 80%;
+  max-width: 1000px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Tekstiboksi ja kuva vierekkäin desktopissa */
+.content-box {
+  display: flex;
+  flex-direction: row; /* Teksti vasemmalle, kuva oikealle, mutta ei kyllä toimi :( */
+  align-items: center; /* Kohdistetaan pystysuunnassa */
+  justify-content: space-between;
+  border: 2px solid #73B03A;
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+  min-width: 600px; /* Varmistetaan, ettei sisältö mene liian kapeaksi */
+  max-width: 100%; /* Varmistetaan, ettei sisältö veny liikaa */
+}
+
+.text {
+  flex: 2; /* Vie enemmän tilaa kuin kuva */
+  text-align: left;
+  padding-right: 20px; /* Jättää tilaa kuvan ja tekstin väliin */
+}
+
+/* Kuvan asetukset */
+figure {
+  flex: 1; /* Vie vähemmän tilaa kuin teksti */
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  flex-shrink: 0; /* Estetään kuvan kutistuminen */
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*  Mobiilinäkymä */
+@media (max-width: 768px) {
+  .content-box {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .text {
+    padding-right: 0;
+  }
+
+  figure {
+    margin-top: 20px;
+  }
+}
+.vote-section iframe {
+  width: 100%; 
+  height: 400px; 
+  max-width: 500px; 
+  margin: 20px auto;
+  border: 2px solid #73B03A; 
+  display: block; 
+}
+footer {
+    text-align: center;
+    border: 2px solid #73B03A;
+    padding: 20px;
+    width: 40%;
+    margin: 0 auto;
 }
