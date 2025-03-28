@@ -21,6 +21,13 @@ nav a{
     display: inline-block;
     width: 8em;
 }
+.sivulla {
+    background-color: #5CD85A;
+  }
+  nav a:hover {
+      background-color: #5CD85A;
+  }
+  
 body {
     background-color: #2B8E8E; /* Sininen taustaväri */
     margin: 0;
