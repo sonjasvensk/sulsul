@@ -31,7 +31,7 @@ body {
 
 .topnav a {
   color: black;
-  margin:0%;
+  margin: 0%;
   padding: 14px 16px;
   text-decoration: none;
   display: block;
@@ -87,12 +87,11 @@ h2 {
   padding: 20px;
   width: 80%;
   margin: 0 auto;
-  /* min-width: 600px; /* Varmistetaan, ettei sisältö mene liian kapeaksi */
+  min-width: 600px; /* Varmistetaan, ettei sisältö mene liian kapeaksi */
   max-width: 100%; /* Varmistetaan, ettei sisältö veny liikaa */
    flex-wrap: wrap;
   max-width: 100%; /* Varmistetaan, ettei sisältö veny liikaa */
 }
-
 
 .flex-left {
   flex: 2; /* Vie enemmän tilaa kuin kuva */
@@ -121,8 +120,8 @@ h2 {
   height: 400px;
   max-width: 500px;
   margin: 20px auto;
-  border: 2px solid #73B03A; 
-  display: block; 
+  border: 2px solid #73b03a;
+  display: block;
   flex-wrap: wrap;
   border: 2px solid #73b03a;
   display: block;
