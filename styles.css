@@ -87,7 +87,6 @@ h2 {
   padding: 20px;
   width: 80%;
   margin: 0 auto;
-  max-width: 100%; /* Varmistetaan, ettei sisältö veny liikaa */
    flex-wrap: wrap;
   max-width: 100%; /* Varmistetaan, ettei sisältö veny liikaa */
 }
