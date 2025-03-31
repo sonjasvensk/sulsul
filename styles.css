@@ -134,17 +134,14 @@ footer {
 
 /*  Mobiilinäkymä */
 @media screen and (max-width: 600px) {
-  .content-box {
+  .flex-container {
     flex-direction: column;
     align-items: center;
     text-align: justify;
   }
 
-  .text {
-    padding-right: 0;
-  }
 
-  figure {
+  #ekakuva {
     margin-top: 20px;
   }
   .topnav {
