@@ -8,20 +8,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="logo.ico">
     <title>Sul Sul!</title>
-    <link href="styles.css" rel="stylesheet"> 
+    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <div class="container">
         <img src="Sul.jpg" alt="Banneri, jossa otsikko Sul Sul The Sims sivusto" id="banneri">
-        
-        <nav>
+
+        <nav class="topnav" id="myTopnav">
             <a href="index.html" class="sivulla">Etusivu</a>
             <a href="TheSims1.html">The Sims 1</a>
             <a href="theSims2.html">The Sims 2</a>
             <a href="theSims3.html">The Sims 3</a>
             <a href="theSims4.html">The Sims 4</a>
             <a href="Linkkeja.html">Linkkejä</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
         </nav>
 
         <main>
@@ -50,9 +54,8 @@
 
                 <div class="vote-section">
                     <h2>Mitä The Sims -peliä olet pelannut?</h2>
-                    <iframe class="qp_iframe" src="https://poll-maker.com/frame5447287x33E54A6A-162"
-                        seamless="seamless" frameborder="no"
-                        style="border:0; background:transparent; width:30em; height:35em;"></iframe>
+                    <iframe class="qp_iframe" src="https://poll-maker.com/frame5447287x33E54A6A-162" seamless="seamless"
+                        frameborder="no" style="border:0; background:transparent; width:30em; height:35em;"></iframe>
                 </div>
 
                 <footer>
@@ -62,6 +65,16 @@
             </article>
         </main>
     </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
 </body>
 
 </html>
