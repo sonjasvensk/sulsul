@@ -32,6 +32,10 @@ nav a {
   display: inline-block;
   width: 8em;
 }
+.sivulla {
+    background-color: #5CD85A;
+    color: black;
+}
 
 nav a:hover {
   background-color: #5CD85A;
