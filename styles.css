@@ -4,11 +4,11 @@
    - Neon green: #5CD85A
    - Royal Blue: #278ED5
 */
-
 /* Google-fontti */
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* --- Yleiset asetukset --- */
+
 body {
   background-color: #2B8E8E; /* Taustaväri */
   margin: 0;
@@ -75,9 +75,11 @@ h2 {
   width: 80%;
   margin: 0 auto;
   min-width: 600px; /* Varmistetaan, ettei sisältö mene liian kapeaksi */
-  max-width: 100%; /* Varmistetaan, ettei sisältö veny liikaa */
+   /* max-width: 100%; Varmistetaan, ettei sisältö veny liikaa */
+   flex-wrap: wrap;
 
 }
+
 
 .text {
   flex: 2; /* Vie enemmän tilaa kuin kuva */
@@ -94,7 +96,7 @@ figure {
   flex-shrink: 0; /* Estetään kuvan kutistuminen */
 }
 
-figure img {
+#ekakuva {
   max-width: 100%;
   height: auto;
 }
@@ -106,6 +108,7 @@ figure img {
   margin: 20px auto;
   border: 2px solid #73B03A; 
   display: block; 
+  flex-wrap: wrap;
 }
 footer {
     text-align: center;
