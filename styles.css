@@ -46,7 +46,7 @@ nav a:hover {
 
 /* Otsikot */
 h1,
-h3 {
+h2 {
   color: #278ED5;
   text-align: center;
 }
@@ -99,7 +99,7 @@ figure img {
   .content-box {
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    text-align: justify;
   }
 
   .text {
