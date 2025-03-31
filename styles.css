@@ -81,13 +81,13 @@ h2 {
 .flex-container {
   display: flex;
   flex-direction: row; /* Teksti vasemmalle, kuva oikealle, mutta ei kyllä toimi :( */
-  align-items: center; /* Kohdistetaan pystysuunnassa */
+  /* align-items: center; /* Kohdistetaan pystysuunnassa */
   justify-content: space-between;
   border: 2px solid #73b03a;
   padding: 20px;
   width: 80%;
   margin: 0 auto;
-  min-width: 600px; /* Varmistetaan, ettei sisältö mene liian kapeaksi */
+  /* min-width: 600px; /* Varmistetaan, ettei sisältö mene liian kapeaksi */
   max-width: 100%; /* Varmistetaan, ettei sisältö veny liikaa */
    flex-wrap: wrap;
   max-width: 100%; /* Varmistetaan, ettei sisältö veny liikaa */
@@ -95,8 +95,8 @@ h2 {
 
 
 .flex-left {
-  /* flex: 2; /* Vie enemmän tilaa kuin kuva */
-  text-align: center;
+  flex: 2; /* Vie enemmän tilaa kuin kuva */
+  text-align: left;
   width: 45%;
   margin: 5px;
   padding-right: 5px; /* Jättää tilaa kuvan ja tekstin väliin */
@@ -104,7 +104,7 @@ h2 {
 
 /* Kuvan asetukset */
 .flex-right {
-  /*flex: 1; /* Vie vähemmän tilaa kuin teksti */
+  flex: 1; /* Vie vähemmän tilaa kuin teksti */
   margin: 5 px;
   padding: 5 px;
   text-align: right;
