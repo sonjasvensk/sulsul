@@ -72,6 +72,7 @@ h2 {
   margin: 0 auto;
   min-width: 600px; /* Varmistetaan, ettei sisältö mene liian kapeaksi */
   max-width: 100%; /* Varmistetaan, ettei sisältö veny liikaa */
+
 }
 
 .text {
