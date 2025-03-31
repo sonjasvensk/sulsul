@@ -77,34 +77,37 @@ h2 {
 }
 
 /* Tekstiboksi ja kuva vierekkäin desktopissa */
-.content-box {
+
+.flex-container {
   display: flex;
   flex-direction: row; /* Teksti vasemmalle, kuva oikealle, mutta ei kyllä toimi :( */
-  align-items: center; /* Kohdistetaan pystysuunnassa */
+  /* align-items: center; /* Kohdistetaan pystysuunnassa
   justify-content: space-between;
   border: 2px solid #73b03a;
   padding: 20px;
   width: 80%;
   margin: 0 auto;
   min-width: 600px; /* Varmistetaan, ettei sisältö mene liian kapeaksi */
-   /* max-width: 100%; Varmistetaan, ettei sisältö veny liikaa */
+   /* max-width: 100%; Varmistetaan, ettei sisältö veny liikaa
    flex-wrap: wrap;
 
   max-width: 100%; /* Varmistetaan, ettei sisältö veny liikaa */
 }
 
 
-.text {
-  flex: 2; /* Vie enemmän tilaa kuin kuva */
-  text-align: left;
-  padding-right: 20px; /* Jättää tilaa kuvan ja tekstin väliin */
+.flex-left {
+  /* flex: 2; /* Vie enemmän tilaa kuin kuva */
+  text-align: center;
+  width: 45%;
+  margin: 5px;
+  padding-right: 5px; /* Jättää tilaa kuvan ja tekstin väliin */
 }
 
 /* Kuvan asetukset */
-figure {
-  flex: 1; /* Vie vähemmän tilaa kuin teksti */
-  margin: 0;
-  padding: 0;
+.flex-right {
+  /*flex: 1; /* Vie vähemmän tilaa kuin teksti */
+  margin: 5 px;
+  padding: 5 px;
   text-align: right;
   flex-shrink: 0; /* Estetään kuvan kutistuminen */
 }
