@@ -225,13 +225,12 @@ footer {
     width: 40%;
   }
 
-  /*hampparimallin ikoni */
   .topnav.responsive .icon {
     position: absolute;
     right: 0%;
     top: 0%;
   }
-  
+
   .topnav.responsive a {
     float: center;
     display: block;
