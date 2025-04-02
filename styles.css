@@ -201,32 +201,42 @@ footer {
     margin: 0 auto;
   }
 
+  .topnav {
+    background-color: #73b03a;
+    overflow: hidden;
+    display: flex;
+    width: 45%;
+  }
+  
+
   .topnav a:not(:first-child) {
     display: none;
   }
 
   .topnav a.icon {
-    /* float: right;*/
     display: block;
-    margin-left: 60%;
+    /* margin-left: 40%; */
     cursor: pointer;
   }
 
   .topnav.responsive {
     position: relative;
     flex-direction: column;
+    width: 40%;
   }
 
+  /*hampparimallin ikoni */
   .topnav.responsive .icon {
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 0%;
+    top: 0%;
   }
-
+/* sivulla oleva linkki navi palkissa */
   .topnav.responsive a {
-    /*float: none;*/
+    /* float: center; */
     display: block;
-    text-align: left;
+    text-align: center;
+    width: 30%;
   }
 
   .vote-section iframe {
