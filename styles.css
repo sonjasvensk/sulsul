@@ -11,7 +11,6 @@
 
 body {
   background-color: #2b8e8e;
-  /* Taustaväri */
   margin: 0;
   padding: 0;
   line-height: 150%;
@@ -21,15 +20,11 @@ body {
   font-family: "Noto Sans", sans-serif;
 }
 
-/* --- Navigaatio --- */
+/* Navigaatio WEB */
 .topnav {
   background-color: #73b03a;
-  /* padding: 4px 6px; */
-  /*text-align: center; */
   overflow: hidden;
   display: flex;
-  /*justify-content: space-between;*/
-  /*align-items: center;*/
 }
 
 .topnav a {
@@ -60,21 +55,19 @@ body {
   /*align-items: center;*/
 }
 
-/* Banneri keskelle */
 #banneri {
   display: block;
   margin: 20px auto;
   width: 60%;
 }
 
-/* Otsikot */
 h1,
 h2 {
   color: #278ed5;
   text-align: center;
 }
 
-/* Sisältölaatikko */
+/* Sisältölaatikko WEB */
 .container {
   background-color: white;
   width: 80%;
@@ -83,7 +76,7 @@ h2 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Tekstiboksi ja kuva vierekkäin desktopissa */
+/* ETUSIVU WEB*/
 
 .flex-left {
   flex: 2;
@@ -92,8 +85,9 @@ h2 {
 }
 .flex-right {
   flex: 1;
-  width: 40%;
+  width: 50%;
   float: left;
+    display: block;
 }
 
 .flex-container {
@@ -108,33 +102,6 @@ h2 {
   margin: 0 auto;
   flex-wrap: wrap;
   max-width: 100%;
-  /* Varmistetaan, ettei sisältö veny liikaa */
-}
-
-/* .flex-container section {
-  width:30%;
-} */
-
-/* .flex-left {
-  flex: 2; /* Vie enemmän tilaa kuin kuva
-  text-align: left;
-  width: 45%;
-  margin: 5px;
-  padding-right: 5px; /* Jättää tilaa kuvan ja tekstin väliin
-}
-
-/* Kuvan asetukset
-.flex-right {
-  flex: 1; /* Vie vähemmän tilaa kuin teksti
-  margin: 5 px;
-  padding: 5 px;
-  text-align: right;
-  flex-shrink: 0; /* Estetään kuvan kutistuminen 
-} */
-
-#ekakuva {
-  max-width: 100%;
-  height: auto;
 }
 
 .vote-section iframe {
@@ -157,6 +124,24 @@ footer {
   width: 40%;
   margin: 0 auto;
 }
+/* THESIMS1 WEB */
+.flex-left1 {
+  flex: 2;
+  width: 50%;
+  float: left;
+}
+.flex-right1 {
+  float: left;
+    flex: 1;
+      display: block;
+
+}
+#thesims1 {
+  width: 150%;
+  float:right;
+  flex: 1;
+  
+}
 
 /*  Mobiilinäkymä */
 @media screen and (max-width: 600px) {
@@ -169,16 +154,17 @@ footer {
   h2 {
     font-size: 20px;
   }
+  /* SISÄLTÖ BOKSI MOBIILI */
   .flex-container {
     flex-direction: column;
     align-items: center;
-    text-align: justify;
+    text-align: left;
     width: 90%;
     padding: 0 10px;
     box-sizing: border-box;
     overflow: hidden;
   }
-
+/* ETUSIVU MOBIILI */
   .flex-right {
     display: flex;
     justify-content: center;
@@ -193,19 +179,29 @@ footer {
     padding-left: 10px;
     word-wrap: break-word;
   }
+  /* THESIMS1 MOBIILI*/
+  .flex-right1 {
+    display: flex;
+justify-content: center;
+}
 
-  #ekakuva {
-    max-width: 100%;
-    height: auto;
+
+  #etusivukuva {
     display: block;
-    margin: 0 auto;
   }
-
+/* MOBIILI NAVIGAAATIO */
   .topnav {
     background-color: #73b03a;
     overflow: hidden;
     display: flex;
-    width: 45%;
+    width: 85%;
+  }
+
+  .topnav a.sivulla {
+    background-color: #5cd85a;
+    color: black;
+    width: 80%;
+    height: 60%;
   }
   
 
@@ -215,19 +211,21 @@ footer {
 
   .topnav a.icon {
     display: block;
-    /* margin-left: 40%; */
+    margin-left: 40%;
     cursor: pointer;
+    background-color: #73b03a;
   }
 
   .topnav.responsive {
     position: relative;
     flex-direction: column;
-    width: 40%;
+    width: 80%;
   }
 
   .topnav.responsive .icon {
     position: absolute;
     right: 0%;
+    left: 40%;
     top: 0%;
   }
 
@@ -235,9 +233,9 @@ footer {
     float: center;
     display: block;
     text-align: left;
-    width: 30%;
+    width: 50%;
   }
-
+/* ETUSIVUN ÄÄNESTYS */
   .vote-section iframe {
     width: 95%;
     max-width: 100%;

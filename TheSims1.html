@@ -1,1 +1,89 @@
+<!DOCTYPE html>
+<html lang="fi">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Tervetuloa Sul Sul -sivustolle, jossa The Sims -aiheista tietoa">
+    <meta name="author" content="Kaisa & Sonja">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="logo.ico">
+    <title>Sul Sul!</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <img src="Sul.jpg" alt="Banneri, jossa otsikko Sul Sul The Sims sivusto" id="banneri">
+
+        <nav class="topnav" id="myTopnav">
+            <a href="index.html">Etusivu</a>
+            <a href="TheSims1.html" class="sivulla">The Sims 1</a>
+            <a href="theSims2.html">The Sims 2</a>
+            <a href="theSims3.html">The Sims 3</a>
+            <a href="theSims4.html">The Sims 4</a>
+            <a href="Linkkeja.html">Linkkejä</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+
+        <main>
+            <article>
+                <h1>The Sims 1 – Klassikko, joka aloitti kaiken</h1>
+
+                <section class="flex-container">         
+                    <div class="flex-left1">  
+                    
+               
+                        <p> The Sims 1 peli ilmestyi vuonna 2000, sitä myytiin yli 70 miljoonaa kappaletta eri
+                            alustoille. Pelissä pelaaja voi luoda oman sim-perheen tai valita kirjastosta valmiin
+                            perheen, jolla aloittaa pelaamaan. Sim-perheessä voi olla kahdeksan simiä, mukaan lukien
+                            lemmikit (The Sims: Lemmikit). <br> <br> Pelaaja voi vaikuttaa simin luonnissa mm. ulkonäköön,
+                            vaatetukseen ja luonteeseen. Simeillä on kahdeksan eri tarvetta: nälkä, mukavuus, energia,
+                            rakko, hupi, sosiaalisuus, hygienia ja huone. <br> <br> Pelissä simit eivät ikäänny (poiketen muista
+                            peruspeleistä), vain vauvasta voi kasvaa lapsi. Simien on mahdollista oppia erilaisia
+                            taitoja, jotka auttavat heitä selviytymään arjessa ja töissä. Jos simit ovat huonolla
+                            tuulella, esim. tarpeista ei ole pidetty huolta, simit voivat joutua helpommin
+                            onnettomuuksiin ja se voi johtaa kuolemaan.
+                            <br> <br>
+                            The Sims 1 lisäosia:
+                           
+                            <li> The Sims: Livin’ It Up</li>
+                            <li>The Sims: House Party</li>
+                            <li>The Sims: Hot Date</li>
+                            <li>The Sims: Lomalla</li>
+                            <li>The Sims: Lemmikit</li>
+                            <li>The Sims: Superstar</li>
+                            <li>The Sims: Taikaa</li>
+                        
+
+                        </p>
+                    </div>  
+                    <figure class="flex-right1">
+                        <img src="TheSims1.jpg" alt="Kuva, The Sims 1 pelistä"
+                            id="thesims1">
+                        <figcaption></figcaption>
+                    </figure>  
+                </section>
+                <br>
+                <footer>
+                    &copy; Kaisa & Sonja
+                </footer>
+
+            </article>
+        </main>
+    </div>
+    <script>
+        function myFunction() {
+            let x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>
