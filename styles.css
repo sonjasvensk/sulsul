@@ -193,6 +193,21 @@ footer {
     list-style-image:url("Plumbob.gif");
   }
 
+  ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  ul li::before {
+    content: "";
+    display: inline-block;
+    width: 20px;                /* määritä kuvasi koko */
+    height: 20px;
+    margin-right: 10px;
+    background-image: url('Plumbob.gif'); /* korvaa omalla kuvan polulla */
+    background-size: cover;
+    background-position: center;
+  }
 
 /*  Mobiilinäkymä */
 @media screen and (max-width: 600px) {
