@@ -363,6 +363,10 @@ color:black;
     font-size: 20px;
   }
 
+  .topnav a:active {
+    background-color: #5cd85a;
+    color: black; 
+}
 
   .topnav a.sivulla {
     background-color: #5cd85a;
