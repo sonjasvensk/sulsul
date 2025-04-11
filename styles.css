@@ -220,6 +220,14 @@ ul li::before {
 
 /*  Mobiilinäkymä */
 @media screen and (max-width: 600px) {
+
+  .container {
+    background-color: white;
+    width: 87%;
+    max-width: 1000px;
+    padding: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
   footer {
     text-align: center;
     border: 2px solid #73b03a;
@@ -258,8 +266,8 @@ ul li::before {
     width: 95%;
     float: none;
     margin: 0;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
     word-wrap: break-word;
   }
   /* THESIMS1 MOBIILI*/
@@ -273,8 +281,8 @@ ul li::before {
     width: 95%;
     float: none;
     margin: 0;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
     word-wrap: break-word;
     display: flex;
     flex-direction: column;
@@ -291,8 +299,8 @@ ul li::before {
     width: 95%;
     float: none;
     margin: 0;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
     word-wrap: break-word;
     display: flex;
     flex-direction: column;
@@ -309,8 +317,8 @@ ul li::before {
     width: 95%;
     float: none;
     margin: 0;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
     word-wrap: break-word;
     display: flex;
     flex-direction: column;
@@ -327,8 +335,8 @@ ul li::before {
     width: 95%;
     float: none;
     margin: 0;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
     word-wrap: break-word;
     display: flex;
     flex-direction: column;
@@ -344,8 +352,8 @@ ul li::before {
     width: 95%;
     float: none;
     margin: 0;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
     word-wrap: break-word;
   }
   #etusivukuva {
@@ -372,7 +380,7 @@ ul li::before {
   .topnav a.sivulla {
     background-color: #5cd85a;
     color: black;
-    width: 75%;
+    width: 70%;
     height: 60%;
   }
 
@@ -381,7 +389,7 @@ ul li::before {
   }
   .topnav div.talo {
     display: block;
-    margin-left: 63%;
+    margin-left: 55%;
     cursor: pointer;
   }
 
