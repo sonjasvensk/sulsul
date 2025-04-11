@@ -139,6 +139,20 @@ footer {
   display: block;
   margin: 0px 0px 430px 80px;
 }
+/* THESIMS2 WEB */
+.flex-left2 {
+  flex: 1;
+  width: 50%;
+  float: left;
+  margin: 5px;
+}
+.flex-right2 {
+  float: left;
+  flex: 1;
+  width: 70%;
+  display: block;
+  margin: 0px 0px 430px 80px;
+}
 
 
 
