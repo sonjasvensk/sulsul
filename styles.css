@@ -188,9 +188,13 @@ footer {
     float: left;
     margin: 5px;
   }
- /* a link {
-
-  } */
+ a:link {
+text-decoration: none;
+color:black;
+  }
+  a:hover {
+    color: royalblue;
+  }
   ul {
     list-style-image:url("Plumbob.gif");
   }
