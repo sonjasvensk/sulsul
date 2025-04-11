@@ -344,8 +344,9 @@ color:black;
     background-color: #73b03a;
     overflow: hidden;
     display: flex;
-    width: 85%;
+    width: 100%;
   }
+
 
   .topnav a.sivulla {
     background-color: #5cd85a;
@@ -368,7 +369,7 @@ color:black;
   .topnav.responsive {
     position: relative;
     flex-direction: column;
-    width: 80%;
+    width: 100%;
   }
 
   .topnav.responsive .icon {
