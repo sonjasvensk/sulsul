@@ -1,1 +1,83 @@
+<!DOCTYPE html>
+<html lang="fi">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Tervetuloa Sul Sul -sivustolle, jossa The Sims -aiheista tietoa">
+    <meta name="author" content="Kaisa & Sonja">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="logo.ico">
+    <title>Sul Sul!</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <img src="Sul.jpg" alt="Banneri, jossa otsikko Sul Sul The Sims sivusto" id="banneri">
+
+        <nav class="topnav" id="myTopnav">
+            <a href="index.html">Etusivu</a>
+            <a href="TheSims1.html">The Sims 1</a>
+            <a href="theSims2.html" class="sivulla">The Sims 2</a>
+            <a href="theSims3.html">The Sims 3</a>
+            <a href="theSims4.html">The Sims 4</a>
+            <a href="Linkkeja.html">Linkkejä</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+
+        <main>
+            <article>
+                <h1>Muistatko vielä: The Sims 2 ja dramaattiset elämäntarinat?</h1>
+
+                <section class="flex-container">         
+                    <div class="flex-left1">  
+                    
+               
+                        <p> The Sims 2 peli julkaistiin vuonna 2004 eri alustoille. Pelissä on samat
+                            perustoiminnot kuin The Sims 1-pelissä, mutta siihen on lisätty paljon
+                            uusia ominaisuuksia, jolla voi vaikuttaa laajemmin simien elämään. Peliin on lisätty esim. simien ikääntyminen ja jokaiselle simille voi valita
+                            elämäntavoitteen. Peliin on lisätty simeille pelkoja ja haluja, jotka vaikuttavat miten sim ”tottelee” pelaajaa.
+                            <br> <br> The Sims 2 lisäosat: <br> <br>
+                            <li>Yliopisto</li>
+                            <li>Yöelämää</li> 
+                            <li>Lemmikkielämää</li>
+                            <li>Kauppa auki</li>
+                            <li>Kaupunkielämää</li>
+                            <li>Matkoilla</li>
+                            <li>Vapaa-aika</li>
+                            <li>Vuodenajat</li>
+                            <br> <br>Lisäksi peliin julkaistiin kymmenen kamasettiä, joista pelaaja sai ostettua lisää erilaisia tavaroita ja yhteisötontteja.
+                            
+
+                        </p>
+                    </div>  
+                    <figure class="flex-right1">
+                        <img src="TheSims1.jpg" alt="Kuva, The Sims 1 pelistä"
+                            id="thesims1">
+                        <figcaption></figcaption>
+                    </figure>  
+                </section>
+                <br>
+                <footer>
+                    &copy; Kaisa & Sonja
+                </footer>
+
+            </article>
+        </main>
+    </div>
+    <script>
+        function myFunction() {
+            let x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>
