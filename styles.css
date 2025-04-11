@@ -181,6 +181,12 @@ footer {
     display: block;
     margin: 0px 0px 430px 80px;
   }
+  .flex-left5 {
+    flex: 1;
+    width: 50%;
+    float: left;
+    margin: 5px;
+  }
 
 
 /*  Mobiilinäkymä */
