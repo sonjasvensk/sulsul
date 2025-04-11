@@ -386,6 +386,10 @@ ul li::before {
     width: 70%;
     height: 60%;
   }
+  .topnav.responsive a.sivulla {
+    background-color: #5cd85a;
+    color: black;
+  }
 
   .topnav div.etusivu {
     display: none;
