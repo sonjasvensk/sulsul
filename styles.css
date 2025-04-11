@@ -188,7 +188,9 @@ footer {
     float: left;
     margin: 5px;
   }
-  
+ /* a link {
+
+  } */
   ul {
     list-style-image:url("Plumbob.gif");
   }
