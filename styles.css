@@ -372,7 +372,7 @@ ul li::before {
     transition: background-color 0.2s ease;
   }
 
-  .topnav a:active {
+  .topnav.responsive a:active {
     background-color: #5cd85a;
     color: black;
   }
