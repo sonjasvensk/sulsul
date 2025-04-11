@@ -50,6 +50,7 @@ body {
 
 .topnav a:hover {
   background-color: #5cd85a;
+  transition: background-color 0.2s ease;
 }
 
 .topnav .icon {
