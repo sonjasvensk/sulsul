@@ -138,7 +138,7 @@ footer {
   flex: 1;
   width: 70%;
   display: block;
-  margin: 0px 0px 430px 80px;
+  margin: 0px 0px 480px 80px;
 }
 /* THESIMS2 WEB */
 .flex-left2 {
@@ -152,7 +152,7 @@ footer {
   flex: 1;
   width: 70%;
   display: block;
-  margin: 0px 0px 330px 80px;
+  margin: 0px 0px 400px 80px;
 }
 /* THESIMS3 WEB */
 .flex-left3 {
@@ -166,7 +166,7 @@ footer {
     flex: 1;
     width: 70%;
     display: block;
-    margin: 0px 0px 740px 0px;
+    margin: 0px 0px 830px 0px;
   }
   /* THESIMS4 WEB */
   .flex-left4 {
@@ -180,7 +180,7 @@ footer {
     flex: 1;
     width: 70%;
     display: block;
-    margin: 0px 0px 740px 0px;
+    margin: 0px 0px 870px 0px;
   }
   .flex-left5 {
     flex: 1;
