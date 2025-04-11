@@ -364,18 +364,18 @@ color:black;
 
 
   .topnav a.sivulla {
-
     background-color: #5cd85a;
     color: black;
     width: 80%;
     height: 60%;
   }
+
   .topnav div.etusivu {
     display: none;
   }
   .topnav div.talo {
     display: block;
-    margin-left: 40%;
+    margin-left: 57%;
     cursor: pointer;
   }
 
@@ -399,8 +399,11 @@ color:black;
   .topnav.responsive .icon {
     position: absolute;
     right: 0%;
-    left: 40%;
+    left: 38%;
     top: 0%;
+  }
+  .topnav.responsive .talo {
+    margin-left: 25%;
   }
 
   .topnav.responsive a {
