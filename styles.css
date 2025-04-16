@@ -348,10 +348,30 @@ ul li::before {
     justify-content: center;
   } */
 
+  ul {
+    list-style-image: url("Plumbob.gif");
+  }
+  
+  ul li {
+    display: block;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  ul li::before {
+    content: "";
+    display: inline-block;
+    width: 20px; /* määritä kuvasi koko */
+    height: 20px;
+    margin-right: 10px;
+    background-image: url("Plumbob.gif"); /* korvaa omalla kuvan polulla */
+    background-size: cover;
+    background-position: center;
+  }
+
   .flex-left5 {
     width: 95%;
     float: none;
-    margin: 0;
+    margin-left: -50px;
     padding-right: 5px;
     padding-left: 5px;
     word-wrap: break-word;
