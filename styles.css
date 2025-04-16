@@ -260,6 +260,13 @@ ul li::before {
     display: flex;
     justify-content: center;
   }
+  figure.flex-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    margin: 0;
+  }
 
   .flex-left,
   .flex-right {
