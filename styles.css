@@ -65,9 +65,15 @@ body {
 }
 
 h1,
-h2 {
+h3 {
   color: #278ed5;
   text-align: center;
+  font-size: 28px;
+}
+h2 {
+  color: #278ed5;
+  text-align: left;
+  font-size: 18px;
 }
 
 /* Sisältölaatikko WEB */
