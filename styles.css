@@ -225,7 +225,7 @@ ul li::before {
 }
 
 /*  Mobiilinäkymä */
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 1000px) {
 
   .container {
     background-color: white;
